@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <figure>
+      <img src="./assets/images/logo.svg" alt="logo" class="logo">
+    </figure>
+    <nav class="nav">
+      <div class="menu inactive">
+        <ul class="menu__list">
+          <li class="menu__elements"><a href="#">Home</a></li>
+          <li class="menu__elements"><a href="#">New</a></li>
+          <li class="menu__elements"><a href="#">Popular</a></li>
+          <li class="menu__elements"><a href="#">Trending</a></li>
+          <li class="menu__elements"><a href="#">Categories</a></li>
+        </ul>
+      </div>
+
+      <div class="menuDesktop">
+        <ul class="menuDesktop__list">
+          <li class="menuDesktop__elements"><a href="#">Home</a></li>
+          <li class="menuDesktop__elements"><a href="#">New</a></li>
+          <li class="menuDesktop__elements"><a href="#">Popular</a></li>
+          <li class="menuDesktop__elements"><a href="#">Trending</a></li>
+          <li class="menuDesktop__elements"><a href="#">Categories</a></li>
+        </ul>
+      </div>
+    </nav>
+    <img src="./assets/images/icon-menu.svg" alt="hamburguer-menu-icon" class="hamburgueIconOpen">
+    <img src="./assets/images/icon-menu-close.svg" alt="hamburguer-menu-icon" class="hamburgueIconClose inactive">
+  </div>
+</header>
+<main class="main">
+  <section class="hero">
+    <div class="hero__left">
+      <div class="heroImage">
+        <figure class="heroImage__img">
+          <img class="heroImage__mobile" src="./assets/images/image-web-3-mobile.jpg" alt="web-3-image">
+          <img class="heroImage__desktop" src="./assets/images/image-web-3-desktop.jpg" alt="web-3-image">
+        </figure>
+      </div>
+        <div class="heroText">
+          <div class="heroText__left">
+            <h1 class="heroText__title">The Bright <br> Future of <br> Web 3.0?</h1>
+          </div>
+          <div class="heroText__right">
+            <p class="heroText__paragraph">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+            <a href="#" class="heroText__enlace">READ MORE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__right">
+      <div class="newArticles">
+        <h2 class="newArticles__title">New</h2>
+          <div class="articlesContainer">
+            <h3 class="articlesContainer__titles"><a href="#">Hydrogen VS Electric Cars</a></h3>
+            <p class="articlesContainer__paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div class="articlesContainer">
+            <h3 class="articlesContainer__titles"><a href="#">The Downsides of Al Artistry</a></h3>
+            <p class="articlesContainer__paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <div class="articlesContainer__last">
+            <h3 class="articlesContainer__titles"><a href="#">ls VC Funding Drying Up?</a></h3>
+            <p class="articlesContainer__paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="articleWigets">
+    <div class="moreArticlesWiget">
+      <div class="articleWigetImage">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="" class="articlesWigetImage__img">
+      </div>
+      <div class="articlesWigetText">
+        <h2 class="articlesWigetText__title">01</h2>
+        <h3 class="articlesWigetText__subtitle"><a href="#">Reviving Retro PCs</a></h3>
+        <p class="articlesWigetText__paragraph">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+    <div class="moreArticlesWiget">
+      <div class="articleWigetImage">
+        <img src="./assets/images/image-top-laptops.jpg" alt="" class="articlesWigetImage__img">
+      </div>
+      <div class="articlesWigetText">
+        <h2 class="articlesWigetText__title">02</h2>
+        <h3 class="articlesWigetText__subtitle"><a href="#">Top 10 Laptops of 2022</a></h3>
+        <p class="articlesWigetText__paragraph">Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+    <div class="moreArticlesWiget">
+      <div class="articleWigetImage">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="" class="articlesWigetImage__img">
+      </div>
+      <div class="articlesWigetText">
+        <h2 class="articlesWigetText__title">03</h2>
+        <h3 class="articlesWigetText__subtitle"><a href="#">The Growth of Gaming</a></h3>
+        <p class="articlesWigetText__paragraph">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://www.instagram.com/dudley.code/" target="_blank">Dudley Delgado</a>.
+</footer>
+
+
+  <script src="./main.js"></script>
+</body>
+</html>
